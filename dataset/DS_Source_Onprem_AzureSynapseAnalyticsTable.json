@@ -1,0 +1,39 @@
+{
+	"name": "DS_Source_Onprem_AzureSynapseAnalyticsTable",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_AzureSynapseAnalytics_1008",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlDWTable",
+		"schema": [
+			{
+				"name": "table_name",
+				"type": "nvarchar"
+			},
+			{
+				"name": "created_on",
+				"type": "datetime2",
+				"scale": 7
+			},
+			{
+				"name": "is_active",
+				"type": "bit"
+			},
+			{
+				"name": "sinkpath",
+				"type": "varchar"
+			},
+			{
+				"name": "status",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "MetadataTable"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

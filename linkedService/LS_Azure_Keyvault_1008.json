@@ -1,0 +1,11 @@
+{
+	"name": "LS_Azure_Keyvault_1008",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://migration-keys-1008.vault.azure.net/"
+		}
+	}
+}

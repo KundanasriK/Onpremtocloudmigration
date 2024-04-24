@@ -1,0 +1,6 @@
+{
+	"name": "LS-Onprem-oracle-Migration-1008",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}

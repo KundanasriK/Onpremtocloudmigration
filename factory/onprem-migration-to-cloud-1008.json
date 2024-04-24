@@ -1,0 +1,9 @@
+{
+	"name": "onprem-migration-to-cloud-1008",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "eb5553ad-6957-4050-bbbf-02586500f9fe",
+		"tenantId": "cfd584c0-e6e5-44e4-a2b4-118c82fb205b"
+	}
+}
